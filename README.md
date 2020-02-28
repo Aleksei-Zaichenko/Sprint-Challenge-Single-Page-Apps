@@ -27,7 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: When a user clicks on a link the whole page won’t refresh. When a user clicks on a requested resource, instead of the client asking for that resource from the server via a URL, JavaScript will prevent this,then a program gets the resource (state) that is already available to it rendered out.
+
+Smooth transitions and animations between views are easier to implement.
 
 ## Project Set Up
 
