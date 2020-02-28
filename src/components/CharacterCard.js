@@ -10,13 +10,11 @@ export default function CharacterCard({character}) {
     padding 2%;
   `;
 
-  let src = character.image;
-  console.log(src);
-  const img = document.createElement('img');
-  img.src = src;
+    const src = character.image;
 
   return (
     <CardWrapper key ={character.id}>
+      <img src ={src} />
       <h2>{character.name}</h2>
       <h3>{character.status}</h3>
       <h3>Species: {character.species}</h3>
